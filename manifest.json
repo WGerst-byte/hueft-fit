@@ -1,0 +1,11 @@
+﻿{
+  "name": "Hüft-Fit – Ratgeber nach Hüft-OP",
+  "short_name": "Hüft-Fit",
+  "description": "Sanfte Dehnungs- und Kräftigungsübungen sowie Alltagstipps für Senioren nach einer Hüftoperation.",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#f4f7f6",
+  "theme_color": "#0f766e",
+  "orientation": "portrait",
+  "icons": [{ "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }]
+}

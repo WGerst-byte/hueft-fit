@@ -1,0 +1,127 @@
+﻿<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#0f766e">
+  <title>Hüft-Fit – Ratgeber & Übungen nach der Hüft-OP</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="manifest" href="manifest.json">
+  <link rel="icon" type="image/svg+xml" href="icon.svg">
+  <link rel="apple-touch-icon" href="icon.svg">
+</head>
+<body>
+  <header class="app-header">
+    <div class="header-content">
+      <img src="icon.svg" alt="Hüft-Fit Logo" class="logo">
+      <div>
+        <h1>Hüft-Fit</h1>
+        <p>Ihr sanfter Begleiter nach der Hüft-OP</p>
+      </div>
+    </div>
+    <div class="font-controls" aria-label="Schriftgröße anpassen">
+      <span>Schriftgröße:</span>
+      <button id="btn-font-normal" class="font-btn active" onclick="setFontSize('19px')">Normal</button>
+      <button id="btn-font-large" class="font-btn" onclick="setFontSize('23px')">Groß</button>
+    </div>
+  </header>
+  <main class="container">
+    <section class="medical-notice" role="alert">
+      <h2>⚠️ Wichtiger Hinweis vor dem Start</h2>
+      <p>Jede Heilung verläuft individuell. Bitte führen Sie diese Übungen <strong>nur nach Rücksprache mit Ihrem Arzt oder Physiotherapeuten</strong> durch. Sollten Schmerzen auftreten, brechen Sie die Übung sofort ab.</p>
+    </section>
+    <nav class="tab-nav" aria-label="Hauptbereiche">
+      <button class="tab-btn active" onclick="openTab('dehnen', this)">🧘 Sanftes Dehnen</button>
+      <button class="tab-btn" onclick="openTab('kraft', this)">💪 Muskelaufbau</button>
+      <button class="tab-btn" onclick="openTab('tipps', this)">💡 Alltagstipps</button>
+    </nav>
+    <section id="dehnen" class="tab-content active">
+      <h2>Sanfte Dehnungsübungen</h2>
+      <p class="intro-text">Dehnen Sie immer langsam und ohne Schwung. Atmen Sie dabei ruhig ein und aus.</p>
+      <article class="card">
+        <h3>1. Venenpumpe (Fußwippe)</h3>
+        <span class="badge">Im Liegen • Fördert die Durchblutung</span>
+        <p><strong>Ausgangsposition:</strong> Legen Sie sich flach auf den Rücken, die Beine sind ausgestreckt.</p>
+        <p><strong>Durchführung:</strong> Ziehen Sie beide Fußspitzen kräftig in Richtung Nase und strecken Sie sie danach wieder weit nach unten aus.</p>
+        <p class="repeat">🔁 15–20 Wiederholungen, mehrmals täglich.</p>
+      </article>
+      <article class="card">
+        <h3>2. Sanfte Hüftstreckung im Liegen</h3>
+        <span class="badge">Im Liegen • Dehnt die Leiste</span>
+        <p><strong>Ausgangsposition:</strong> Rückenlage auf einer festen Unterlage (z. B. Bett oder Matte).</p>
+        <p><strong>Durchführung:</strong> Ziehen Sie das <em>nicht</em> operierte Bein gebeugt zum Oberkörper und halten Sie es mit beiden Händen fest. Das operierte Bein bleibt ganz flach und gestreckt auf der Unterlage liegen.</p>
+        <p class="repeat">🔁 Position 20 Sekunden halten, 3-mal wiederholen.</p>
+      </article>
+      <article class="card">
+        <h3>3. Knie-Strecker im Sitzen</h3>
+        <span class="badge">Im Sitzen • Rückseite des Oberschenkels</span>
+        <p><strong>Ausgangsposition:</strong> Setzen Sie sich aufrecht auf einen stabilen Stuhl (Hüftwinkel nicht unter 90 Grad beugen).</p>
+        <p><strong>Durchführung:</strong> Strecken Sie das operierte Bein langsam nach vorne aus, bis die Ferse den Boden berührt, und ziehen Sie die Fußspitze an. Sie spüren ein leichtes Ziehen in der Wade und Kniekehle.</p>
+        <p class="repeat">🔁 15 Sekunden halten, 3-mal pro Bein.</p>
+      </article>
+    </section>
+    <section id="kraft" class="tab-content">
+      <h2>Gezielter Muskelaufbau</h2>
+      <p class="intro-text">Starke Muskeln schützen und entlasten Ihr neues Hüftgelenk. Machen Sie zwischen den Sätzen ausreichend Pause.</p>
+      <article class="card">
+        <h3>1. Gesäßmuskeln anspannen</h3>
+        <span class="badge">Im Liegen • Stabilisiert das Becken</span>
+        <p><strong>Ausgangsposition:</strong> Flache Rückenlage, die Beine liegen locker nebeneinander.</p>
+        <p><strong>Durchführung:</strong> Kneifen Sie beide Gesäßbacken fest zusammen, als wollten Sie eine Münze festhalten. Halten Sie die Spannung und lassen Sie dann langsam wieder locker.</p>
+        <p class="repeat">🔁 5 Sekunden halten, 10-mal wiederholen.</p>
+      </article>
+      <article class="card">
+        <h3>2. Kniekehle in die Unterlage drücken</h3>
+        <span class="badge">Im Liegen • Stärkt den Oberschenkel</span>
+        <p><strong>Ausgangsposition:</strong> Rückenlage, Beine sind ausgestreckt.</p>
+        <p><strong>Durchführung:</strong> Ziehen Sie die Zehenspitzen des operierten Beines an und drücken Sie die Kniekehle fest nach unten in die Matratze. Die Ferse darf sich dabei leicht abheben.</p>
+        <p class="repeat">🔁 5 Sekunden halten, 10-mal wiederholen.</p>
+      </article>
+      <article class="card">
+        <h3>3. Seitliches Abspreizen im Stand</h3>
+        <span class="badge">Im Stehen • Wichtig für sicheren Gang</span>
+        <p><strong>Ausgangsposition:</strong> Stellen Sie sich aufrecht hinter einen stabilen Stuhl und halten Sie sich mit beiden Händen an der Lehne fest.</p>
+        <p><strong>Durchführung:</strong> Führen Sie das operierte Bein gestreckt langsam zur Seite weg (nicht zu hoch) und führen Sie es kontrolliert wieder zurück. Der Oberkörper bleibt gerade.</p>
+        <p class="repeat">🔁 8–10 Wiederholungen, 2 Durchgänge.</p>
+      </article>
+    </section>
+    <section id="tipps" class="tab-content">
+      <h2>Wichtige Tipps für den Alltag</h2>
+      <p class="intro-text">In den ersten 6 bis 12 Wochen nach der Operation helfen Ihnen diese Regeln, Ihr Gelenk optimal zu schützen.</p>
+      <article class="card tip-card">
+        <h3>🪑 Richtig Sitzen & Aufstehen</h3>
+        <ul>
+          <li>Vermeiden Sie tiefe Sessel und weiche Sofas. Nutzen Sie ein festes Sitzkissen zur Erhöhung.</li>
+          <li>Beugen Sie Ihre Hüfte niemals stärker als <strong>90 Grad</strong> (das Knie sollte nie höher sein als die Hüfte).</li>
+          <li><strong>Schlagen Sie die Beine nicht übereinander!</strong></li>
+        </ul>
+      </article>
+      <article class="card tip-card">
+        <h3>🪜 Treppensteigen (Merksatz)</h3>
+        <ul>
+          <li><strong>Hinauf:</strong> „Gesundheit geht vor“ – Zuerst das <em>gesunde</em> Bein auf die Stufe setzen, dann das operierte Bein und die Gehstützen nachziehen.</li>
+          <li><strong>Hinab:</strong> „Krankheit geht zuerst“ – Zuerst die Gehstützen und das <em>operierte</em> Bein nach unten setzen, dann das gesunde Bein nachholen.</li>
+        </ul>
+      </article>
+      <article class="card tip-card">
+        <h3>🏠 Sicherheit & Hilfsmittel zu Hause</h3>
+        <ul>
+          <li>Entfernen Sie lose Teppiche und Stolperfallen (Kabel) in der Wohnung.</li>
+          <li>Nutzen Sie eine <strong>Greifzange</strong> und einen <strong>langen Schuhlöffel</strong>, um tiefes Bücken zu vermeiden.</li>
+          <li>Tragen Sie geschlossene, rutschfeste Schuhe statt offener Schlappen.</li>
+        </ul>
+      </article>
+    </section>
+    <section class="share-box">
+      <h3>App an Freunde weitergeben</h3>
+      <p>Kennen Sie jemanden, dem diese Übungen ebenfalls helfen können?</p>
+      <button class="share-btn" onclick="shareApp()">📤 Link an Freunde senden</button>
+      <p id="share-feedback" class="feedback-text"></p>
+    </section>
+  </main>
+  <footer class="app-footer">
+    <p>Hüft-Fit Ratgeber • Kostenlos & werbefrei • Gute Besserung!</p>
+  </footer>
+  <script src="app.js"></script>
+</body>
+</html>
